@@ -22,8 +22,8 @@ pub fn profile(ctx: &mut Context, msg: &Message, _: Args) -> CommandResult {
 
     let conn: &Connection;
     open_db!(ctx, conn);
-
-    conn.execute("INSERT or IGNORE INTO users (id, xp, level, karma, coins) VALUES (?1, ?2, ?3, ?4, ?5)", params![author_id, &0, &0, &0, &0])?;
+    db_check!(conn, author_id, &0);
+    //conn.execute("INSERT or IGNORE INTO users (id, xp, level, karma, coins) VALUES (?1, ?2, ?3, ?4, ?5)", params![author_id, &0, &0, &0, &0])?;
 
     let mut result = conn.prepare("SELECT xp, level, karma, coins FROM users u WHERE id = ?1")?;
     let users = result.query_map(params![author_id], |row| {
@@ -39,7 +39,10 @@ pub fn profile(ctx: &mut Context, msg: &Message, _: Args) -> CommandResult {
         let _ = msg.channel_id.send_message(&ctx.http, |m| {
             m.embed(|e| {
                 e.title(&msg.author.name);
-                e.thumbnail(&msg.author.avatar_url().unwrap());
+                match &msg.author.avatar_url() {
+                    Some(url) => e.thumbnail(url),
+                    None => e.thumbnail("https://i.imgur.com/d7ted1B.png")
+                };
                 e.fields(vec![
                     ("xp", user.xp.to_string(), true),
                     ("level", user.level.to_string(), true),

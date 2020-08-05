@@ -14,7 +14,7 @@ pub fn check_for_karma(msg: &Message) -> bool {
     let content = &msg.content.to_lowercase();
     let mut valid = false;
     for check in &KARMA_CHECKS {
-        valid = content == check;
+        valid = content.contains(check);
 
         if valid {
             return true;

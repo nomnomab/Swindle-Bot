@@ -10,7 +10,8 @@ pub type ConfigMap = HashMap<ConfigFile, HashMap<String, String>>;
 #[derive(Hash, Eq, PartialEq)]
 pub enum ConfigFile {
     StartUp,
-    About
+    About,
+    Cooldowns
 }
 
 impl ConfigFile {
@@ -18,6 +19,7 @@ impl ConfigFile {
         match name.to_lowercase().as_str() {
             "startup" => ConfigFile::StartUp,
             "about" => ConfigFile::About,
+            "cooldowns" => ConfigFile::Cooldowns,
             _ => panic!("{} does not have a ConfigFile enum equivalence.", name)
         }
     }
@@ -74,6 +76,12 @@ macro_rules! open_config {
             .unwrap();
         let conn = &wrapper.lock();
         $config = &conn.value;
+    }
+}
+
+macro_rules! db_check {
+    ($conn: ident, $author_id: expr, $default: expr) => {
+        $conn.execute("INSERT or IGNORE INTO users (id, xp, level, karma, coins) VALUES (?1, ?2, ?3, ?4, ?5)", params![$author_id, $default, $default, $default, $default]).unwrap();
     }
 }
 

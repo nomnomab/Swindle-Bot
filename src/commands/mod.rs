@@ -5,11 +5,11 @@ use serenity::{
 };
 
 pub mod add;
-pub mod rank;
+pub mod profile;
 pub mod about;
 
 use add::*;
-use rank::*;
+use profile::*;
 use about::*;
 
 #[group]
