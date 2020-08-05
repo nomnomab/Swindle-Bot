@@ -22,7 +22,7 @@ Here is the current to-do list:
     - [x] Show xp, level, karma, and coins
     - [x] Return an embed
     - [ ] Return a custom image with added text and information
-- [x] !about
+- [ ] !about
     - [x] Loads data from config map that hooks to `./config/about.cfg`
     - [x] Return an embed
     - [x] Link to GitHub repository
