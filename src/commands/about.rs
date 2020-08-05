@@ -24,6 +24,10 @@ pub fn about(ctx: &mut Context, msg: &Message, _: Args) -> CommandResult {
             e.thumbnail(about_config
                 .get("thumbnail")
                 .expect(""));
+            let url = about_config
+                .get("url")
+                .expect("");
+            e.field("Source", url, true);
             let version = config
                 .get(&ConfigFile::StartUp)
                 .expect("")
