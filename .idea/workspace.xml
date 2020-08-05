@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="605899af-f4fd-4505-9d6c-d0099424f9bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/test-project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/about.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/startup.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/databases/main.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rust-logo-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/about.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/add.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/rank.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/databases/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/events.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/karma.rs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Rust File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="o56nfy5y" />
+  </component>
+  <component name="ProjectId" id="1fYRcQ29ngtVI06m5P8JB5BySqr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Rust Projects\test-project\databases" />
+      <recent name="D:\Rust Projects\test-project" />
+    </key>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="version" value="2" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="605899af-f4fd-4505-9d6c-d0099424f9bb" name="Default Changelist" comment="" />
+      <created>1596393119227</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596393119227</updated>
+      <workItem from="1596393120697" duration="1669000" />
+      <workItem from="1596396682571" duration="10756000" />
+      <workItem from="1596410675321" duration="26805000" />
+      <workItem from="1596659804536" duration="162000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="3570" y="466" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596456453301">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3570" y="466" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/2560.0.2560.1440@2560.0.2560.1440" timestamp="1596456453301" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1596414323589">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.2560.1400/2560.0.2560.1440@2560.0.2560.1440" timestamp="1596414323589" />
+    <state x="3503" y="325" width="672" height="678" key="search.everywhere.popup" timestamp="1596456088959">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3503" y="325" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/2560.0.2560.1440@2560.0.2560.1440" timestamp="1596456088959" />
+  </component>
+</project>
