@@ -37,7 +37,7 @@ impl EventHandler for Handler {
             for men in mentions {
                 let mention_id = men.id.0.to_string();
 
-                if mention_id == msg.author.id {
+                if men.id == msg.author.id {
                     continue;
                 }
 
